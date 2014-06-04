@@ -1,5 +1,5 @@
-@if not exist "%HOME%" @set HOME=%HOMEDRIVE%%HOMEPATH%
-@if not exist "%HOME%" @set HOME=%USERPROFILE%
+@if not exist "%HOME%" @set HOME=G:\Vim
+@if not exist "%HOME%" @set HOME=G:\vim
 
 @set APP_DIR=%HOME%\.spf13-vim-3
 
